@@ -102,13 +102,14 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"*": {
+		"validate": "workflow_base_kanban_board_khatavahi.update_workflow_state.validate"
+	},
+    "Workflow": {
+		"validate": "workflow_base_kanban_board_khatavahi.workflow.validate"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
