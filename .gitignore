@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+workflow_base_kanban_board_khatavahi/docs/current
+node_modules/

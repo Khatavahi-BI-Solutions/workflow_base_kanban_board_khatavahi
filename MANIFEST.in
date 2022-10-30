@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include workflow_base_kanban_board_khatavahi *.css
+recursive-include workflow_base_kanban_board_khatavahi *.csv
+recursive-include workflow_base_kanban_board_khatavahi *.html
+recursive-include workflow_base_kanban_board_khatavahi *.ico
+recursive-include workflow_base_kanban_board_khatavahi *.js
+recursive-include workflow_base_kanban_board_khatavahi *.json
+recursive-include workflow_base_kanban_board_khatavahi *.md
+recursive-include workflow_base_kanban_board_khatavahi *.png
+recursive-include workflow_base_kanban_board_khatavahi *.py
+recursive-include workflow_base_kanban_board_khatavahi *.svg
+recursive-include workflow_base_kanban_board_khatavahi *.txt
+recursive-exclude workflow_base_kanban_board_khatavahi *.pyc
