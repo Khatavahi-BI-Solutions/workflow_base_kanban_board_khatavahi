@@ -10,5 +10,6 @@ class WorkflowBaseKanbanBoardSettings(Document):
 			try:
 				workflow = frappe.get_doc("Workflow",{"document_type":row.document_type,"is_active":True })
 				validate_workflow(workflow)
+				frappe.msgprint("Custom Field Updated for "+ row.document_type + " and Workflow " + workflow)
 			except:
 				frappe.msgprint("Active Workflow not found for " + row.document_type)
